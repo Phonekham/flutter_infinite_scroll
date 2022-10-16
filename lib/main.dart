@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_infinite_scroll/infinite_listview/infinite_listview.dart';
 import 'package:flutter_infinite_scroll/infinite_scroll_pagination/infinite_scroll_pagination.dart';
 
 import 'infinite_scroll_paginationv2/infinite_scroll_pagination2.dart';
@@ -17,6 +18,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      // home: InfiniteScrollPagination(),
+      // home: InfiniteListview(),
       home: InfiniteScrollPaginatio2(),
     );
   }
